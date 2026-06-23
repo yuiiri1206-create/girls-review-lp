@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDF0F2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F5D0D6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="personGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8A0A8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D4787F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <circle cx="200" cy="200" r="200" fill="url(#bgGrad)"/>
+  <!-- Person silhouette -->
+  <circle cx="200" cy="145" r="55" fill="url(#personGrad)"/>
+  <ellipse cx="200" cy="290" rx="90" ry="70" fill="url(#personGrad)"/>
+  <!-- Camera icon -->
+  <rect x="155" y="310" width="90" height="65" rx="8" fill="#fff" opacity="0.85"/>
+  <circle cx="200" cy="340" r="18" fill="#E8A0A8"/>
+  <circle cx="200" cy="340" r="12" fill="#fff" opacity="0.7"/>
+  <rect x="168" y="316" width="20" height="10" rx="3" fill="#E8A0A8"/>
+</svg>
